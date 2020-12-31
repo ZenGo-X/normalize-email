@@ -1,5 +1,5 @@
 var assert = require('assert')
-var normalizeEmail = require('..')
+var normalizeEmail = require('../dist/src').default;
 
 var gmailEmailsToNormalize = [
   'johnotander@gmail.com',
